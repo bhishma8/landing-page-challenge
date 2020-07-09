@@ -1,0 +1,24 @@
+body
+{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+/* Navbar */
+.navbar-brand
+{
+    padding-left: 8rem;
+
+}
+.navbar-nav
+{
+    padding-right: 8rem;
+}
+.nav-item
+{
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+
+}
