@@ -74,3 +74,26 @@ h1
     
     top:60px;
 }
+ 
+/* Testimonials Page */
+h3
+{
+    font-family: 'DM Serif Display', serif;
+    
+}
+.second
+{
+    padding-left: 15rem;
+    padding-right: 14rem;
+}
+.testimonials-icon
+{
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+}
+.testimonials-text
+{
+    color:  hsl(273, 4%, 51%);
+    margin-top: 20px;
+}
