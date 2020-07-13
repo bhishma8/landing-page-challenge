@@ -3,7 +3,21 @@ body
     font-family: 'Karla', sans-serif;
     font-size: 16px;
 }
-
+h1
+{
+    font-family: 'DM Serif Display', serif;
+}
+h3
+{
+    font-family: 'DM Serif Display', serif;
+    
+}
+p
+{
+    font-family: 'Karla', sans-serif;
+    color:hsl(256, 26%, 20%) ;
+    font-weight: 600;
+}
 /* Navbar */
 .navbar
 {
@@ -33,10 +47,7 @@ body
     color: #ffffff;
    height:450px
 }
-h1
-{
-    font-family: 'DM Serif Display', serif;
-}
+
 .title-div
 {
     padding-top: 50px;
@@ -45,6 +56,8 @@ h1
 {   
    padding-left: 15rem;
    padding-right: -1rem;
+   color: #ffffff;
+   font-weight: 400;
    
 }
 
@@ -76,11 +89,7 @@ h1
 }
  
 /* Testimonials Page */
-h3
-{
-    font-family: 'DM Serif Display', serif;
-    
-}
+
 .second
 {
     padding-left: 15rem;
@@ -97,16 +106,18 @@ h3
     color:  hsl(273, 4%, 51%);
     margin-top: 20px;
     font-family: 'Karla', sans-serif;
+    font-weight: 400 ;
+    
 }
 
-
+/* Work Jumbotron */
 
 .work
 {
     padding-left:15rem;
     padding-right:14rem;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
 }
 .work-div
@@ -135,4 +146,48 @@ h3
 {
     margin-left: 131px;
     margin-top: -38px;
+}
+
+/* Footer */
+
+#footer
+{
+    background-color: hsl(0, 0%, 98%);
+      
+}
+.logo-footer
+{  position: relative;
+    z-index: 1; 
+    padding-left:15rem ;
+    padding-right:14rem;
+    margin-bottom: 40px;
+    padding-top:50px
+}
+.align-icon
+{
+    margin-left: 49rem;
+
+}
+.icon{
+    margin-right: 10px;
+}
+.footer-image
+{
+    position: absolute;
+}
+
+.footer-head
+{
+    color:hsl(273, 4%, 51%) ;
+    margin-bottom: 20px;
+}
+.icon:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
+.footer-text:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
 }
